@@ -1,0 +1,23 @@
+.header {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+}
+
+.header__image {
+  object-fit: contain;
+}
+
+.header__right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__right > Button {
+  margin-right: 15px !important;
+}

@@ -1,0 +1,59 @@
+.home {
+  background-color: #fafafa;
+}
+
+.home__addNew {
+  position: fixed !important;
+  bottom: 15px;
+  right: 15px;
+  color: black;
+}
+
+.home__newPostModal {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  width: 350px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.home__username {
+  margin-top: 140px;
+}
+
+.home__username > .home__usernameForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__usernameFormInput {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.home__postsRight {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home__posts {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}

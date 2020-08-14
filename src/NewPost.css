@@ -1,0 +1,54 @@
+.newPost {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.newPost__break {
+  width: 100%;
+  color: lightgray;
+  margin-top: 30px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.newPost__form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newPost__fileUpload {
+  font-size: large;
+  margin-bottom: 10px;
+  max-width: 320px;
+  min-width: 320px;
+}
+
+.newPost__caption {
+  margin: 20px 0;
+}
+
+.newPost__captionText {
+  max-height: 150px;
+  min-height: 150px;
+  max-width: 320px;
+  min-width: 320px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-size: large;
+  border: 1px solid lightgray;
+}
+
+.newPost__submit {
+  float: right;
+  margin-left: auto;
+}
+
+.newPost__progress {
+  margin-top: 30px;
+  width: 100% !important;
+}
